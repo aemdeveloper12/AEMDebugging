@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/AEMDebugging",
+        "create path (nt:unstructured) /content/dam/AEMDebugging/jcr:content",
+        "set properties on /content/dam/AEMDebugging/jcr:content\n  set cq:conf{String} to /conf/AEMDebugging\n  set jcr:title{String} to \"AEMDebugging Project\"\nend"
+    ]
+}

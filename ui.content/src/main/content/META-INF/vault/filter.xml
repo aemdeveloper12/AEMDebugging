@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/AEMDebugging" mode="merge"/>
+    <filter root="/content/AEMDebugging" mode="merge"/>
+    <filter root="/content/dam/AEMDebugging" mode="merge">
+        <exclude pattern="/content/dam/AEMDebugging(/.*)?"/>
+        <include pattern="/content/dam/AEMDebugging/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/AEMDebugging/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/AEMDebugging" mode="merge"/>
+</workspaceFilter>
