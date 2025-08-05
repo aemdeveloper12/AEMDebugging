@@ -99,7 +99,7 @@
                     
     
     
-    <aem.port>8080</aem.port>
+    <aem.port>4504</aem.port>
                     
     
     
@@ -107,7 +107,7 @@
                     
     
     
-    <aem.publish.port>4503</aem.publish.port>
+    <aem.publish.port>4505</aem.publish.port>
                     
     
     
